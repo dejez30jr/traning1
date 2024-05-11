@@ -127,7 +127,7 @@ button{
     margin-top: 20px;
     margin-right: 15px;
     margin-left: 15px;
-    
+    font-family: "Nunito Sans", sans-serif;
 }
 
 
@@ -172,6 +172,7 @@ a{
     margin-right: 15px;
     margin-left: 15px;
     margin-top: 30px;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 
@@ -206,6 +207,7 @@ b{
 
 .proses2{
     color: white;
+    font-family: "Nunito Sans", sans-serif;
     width: 60%;
     margin: 15px;
     padding: 10px;
@@ -221,12 +223,18 @@ b{
     display: flex;
 }
 
+.mantionletak{
+  margin-top: 15px;
+}
+
 .mantion{
-    text-align: center;
+    box-sizing: border-box;
     color: white;
     font-size: 25px;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-wrap: wrap;
 }
 
 .engineering{
@@ -237,13 +245,13 @@ b{
 .artikel2{
     width: 50%;
     color: aliceblue;
+    font-family: "Nunito Sans", sans-serif;
     margin: 10px;
-}
-
-.artikel1{
-    display: flex;
     margin-right: 15px;
     margin-left: 15px;
+}
+.artikel1{
+    display: flex;
 }
 
 

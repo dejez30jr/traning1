@@ -1,0 +1,495 @@
+*,
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(46, 44, 44);
+    background-attachment: fixed;
+}
+
+.first{
+    margin-left: -12px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    color: aliceblue;
+    padding: 1REM 2rem;
+    background-color: rgb(44, 41, 41);
+    width: 100%;
+    position: fixed;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+nav ul li a:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 28px;
+}
+
+.books{
+    width: 100%;
+    margin-top: 15px;
+    height: 700px;
+}
+
+.container{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  
+}
+
+
+.user{
+    width: 50%;
+    height: 50%;
+    padding: 9px;
+    margin-bottom: -4%;
+    margin-top: 14px;
+}
+
+.card{
+    margin-top: 0;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.intro{
+    color: rgb(202, 206, 210);
+}
+
+.isi{
+    color: rgb(202, 206, 210);
+    margin-bottom: 0px 30px;
+}
+
+button{
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    padding: 7px 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.ilmu{
+    margin-top: 45px;
+    background-color: rgb(44, 47, 74);
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.buku{
+    width: 100%;
+    height: 50%;
+}
+
+/* seputar pengetahuan */
+
+.box{
+    display: flex;
+    margin-top: 5%;
+}
+
+.kotak{
+    color: aliceblue;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+
+
+.ftr{
+    width: 30%;
+    height: 30%;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 2px solid wheat;
+}
+
+.power{
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.end{
+    text-align: center;
+    margin-top: 40px;
+    background-color: #262626;
+    padding: 20px;
+}
+
+i{
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.pengertian{
+    box-sizing: border-box;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+
+.pengertian1{
+    color: whitesmoke;
+}
+
+b{
+    color: white;
+    font-size: 25px;
+}
+
+.proses{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.sofwer-img{
+    width: 50%;
+}
+
+.spec{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.proses1{
+    display: flex;
+}
+
+.proses2{
+    color: white;
+    width: 60%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.web-img{
+    width: 50%;
+}
+
+.web{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.mantion{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.engineering{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.artikel2{
+    width: 50%;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.artikel1{
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+/* button style */
+
+
+button:hover{
+    background-color: tomato;
+    color: #fff;
+    transform: translateY(-10px);
+    border: 3px solid white;
+}
+
+/* end */
+
+/* card style */
+.card-client {
+    background: #2cb5a0;
+    width: 13rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 4px solid #7cdacc;
+    box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .card-client:hover {
+    transform: translateY(-10px);
+    background-color: tomato;
+  }
+  
+  .user-picture {
+    overflow: hidden;
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    border: 4px solid #7cdacc;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .user-picture svg {
+    width: 2.5rem;
+    fill: currentColor;
+  }
+  
+  .name-client {
+    margin: 0;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .name-client span {
+    display: block;
+    font-weight: 200;
+    font-size: 16px;
+  }
+  
+  .social-media:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background: #7cdacc;
+  }
+  
+  .social-media a {
+    position: relative;
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .social-media a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-media a svg {
+    width: 1.1rem;
+    fill: currentColor;
+  }
+  
+  /*-- Tooltip Social Media --*/
+  .tooltip-social {
+    background: #262626;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 0.5rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -90%);
+    transition: all 0.2s ease;
+    z-index: 1;
+  }
+  
+  .tooltip-social:after {
+    content: " ";
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+  }
+  
+  .social-media a .tooltip-social:after {
+    border-top-color: #262626;
+  }
+  
+  .social-media a:hover .tooltip-social {
+    opacity: 1;
+    transform: translate(-50%, -130%);
+  }
+
+  .wrapper{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+  }
+  .arahan{
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+  }
+
+@media (max-width: 768px){
+    .proses1{
+        flex-wrap: wrap;
+    }
+    .proses2{
+        width: 90%;
+    }
+    .artikel1{
+        flex-wrap: wrap;
+    }
+    .artikel2{
+        width: 90%;
+    }
+    .web-img{
+        width: 90%;
+    }
+    .sofwer-img{
+        width: 90%;
+    }
+    .books{
+        width: 100%;
+        margin-top: 15px;
+        height: 300px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .wrapper{
+        width: 100%;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .card-client{
+        width: 80%;
+    }
+    .arahan{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+    .books{
+        margin-top: 70px;
+    }
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .user{
+        width: 150px;
+        height: 150px;
+    }
+    .buku{
+        width: 100%;
+    }
+    .card{
+       height: auto;
+       margin-top: 20px;
+    }
+    .sejarah{
+        margin-left: 5px;
+    }
+    nav{
+        flex-wrap: wrap;
+        position: fixed;
+        width: 90%;
+        top: 0;
+    }
+    nav ul{
+        margin-top: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu-icon{
+        text-align: center;
+        display: flex;
+    }
+    nav ul li:last-of-type{
+        padding: 8px;
+    }
+    nav ul.hidden {
+        display: none;
+    }
+}
+@media (min-width: 800px){
+    .main{
+        top: 50%;
+    }
+    .intro{
+        margin-top: -15px;
+    }
+}
+
+@media (min-width: 800px){
+    .user{
+        width: 40%;
+        height: 40%;
+        padding: 40px;
+    }
+    .kardus{
+        text-align: center;
+    }
+    .buku{
+     width: 50%;
+    }
+}
